@@ -3,7 +3,7 @@ class ColoredCells {
         if( n == 1){
             return 1;
         }
-        return 4*(n - 1) + coloredCells(n - 1);
+        return 4*(n - 1) + coloredCellsRecursion(n - 1);
     }
 
 
